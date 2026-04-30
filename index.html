@@ -1,12 +1,313 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>教員こころのサポートツール</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>天汐香弓 Portfolio | Teshio Kayumi</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700&family=Zen+Maru+Gothic:wght@300;400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="background-overlay"></div>
+  <div class="container">
+    <header>
+      <div class="profile-card">
+        <h1>天汐香弓</h1>
+        <p class="subtitle">Teshio Kayumi Portfolio</p>
+        <div class="intro-text">
+          <p>官公庁・公的機関での事務業務、Webライターとしての文章制作を経て、現在は生成AIを活用した業務支援・コンテンツ制作を行っています。</p>
+          <p>エンジニアではありませんが、非エンジニア層・教育現場・現場担当者にも使えるAI活用を得意とし、企画・構成・制作・進行管理まで一貫して対応可能です。</p>
+        </div>
+        <div class="certification-badges">
+          <span class="badge">AIスキル検定初級合格</span>
+          <span class="badge">バイブコーディング検定初級合格</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="new-works-section">
+      <div class="window-card">
+        <div class="section-title-wrapper">
+          <img src="scroll.png" alt="Scroll icon" class="scroll-icon">
+          <h2>new works!</h2>
+        </div>
+        <div class="scroll-window">
+          <ul class="news-list">
+            <li><span class="date">2026-04-28</span> <span class="content">教員こころのサポートツール 公開 <a href="https://teacher-mental-health-tool.web.app/" target="_blank">デモ</a> / <a href="https://github.com/teshiokayumi/Teacher-mental-health-tool" target="_blank">ツール配布先</a></span></li>
+            <li><span class="date">2026-04-20</span> <span class="content">Record Cafe Time Spring BGM コンテスト
+                最優秀賞『遠い日の花吹雪』 受賞。店内で聴くことが出来ます。</span></li>
+            <li><span class="date">2026-03-13</span> <span class="content">「月刊AI男子3月号」</span></li>
+            <li><span class="date">2026-03-12</span> <span class="content">「医療費控除入力ツール」</span></li>
+            <li><span class="date">2026-03-10</span> <span class="content">「OBS向けフリー音楽集ACT」</span></li>
+            <li><span class="date">2026-02-25</span> <span class="content">初恋の魔法 / SUMMER BREEZE 配信開始</span></li>
+            <li><span class="date">2026-02-25</span> <span class="content">Easy V-Studioリリース</span></li>
+            <li><span class="date">2026-02-24</span> <span class="content">BrushMosaicPro リリース</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <div class="main-card">
+        <section class="section">
+          <h3>Service -対応可能な業務領域-</h3>
+          <div class="service-grid">
+            <div class="service-item">
+              <i class="icon">⚙️</i>
+              <h4>生成AI活用支援</h4>
+              <p>業務効率化・実務への落とし込み</p>
+            </div>
+            <div class="service-item">
+              <i class="icon">📚</i>
+              <h4>コンテンツ制作</h4>
+              <p>教育・研修・セミナー用資料制作</p>
+            </div>
+            <div class="service-item">
+              <i class="icon">🎨</i>
+              <h4>AIクリエイティブ</h4>
+              <p>イラスト・漫画・動画制作</p>
+            </div>
+            <div class="service-item">
+              <i class="icon">✍️</i>
+              <h4>ライティング</h4>
+              <p>Web記事・note代筆（AI/DX活用事例）</p>
+            </div>
+          </div>
+        </section>
+
+        <hr class="elegant-hr">
+
+        <section class="section">
+          <h3>Strength -強み-</h3>
+          <div class="strength-list">
+            <div class="strength-item">
+              <h4>✨ 正確性・期限管理</h4>
+              <p>事務経験に基づく確実な進行管理</p>
+            </div>
+            <div class="strength-item">
+              <h4>✨ 情報整理・構成力</h4>
+              <p>実体験ベースの分かりやすい文章執筆</p>
+            </div>
+            <div class="strength-item">
+              <h4>✨ 現場視点のAI活用</h4>
+              <p>「導入して終わり」にさせない実務への落とし込み</p>
+            </div>
+            <div class="strength-item">
+              <h4>✨ リモート適応力</h4>
+              <p>チャットベースでのスムーズなオンライン連携</p>
+            </div>
+          </div>
+        </section>
+
+        <hr class="elegant-hr">
+
+        <section class="section">
+          <h3>Experience -主な実績-</h3>
+          <div class="experience-grid">
+            <div class="exp-card">
+              <h4>教育・業務支援</h4>
+              <ul>
+                <li>生成AIセミナー用テキスト・スライド制作</li>
+                <li>初心者向けAI活用コンテンツ設計</li>
+                <li>専門用語を抑えた「すぐ使える」構成</li>
+              </ul>
+            </div>
+            <div class="exp-card">
+              <h4>制作・クリエイティブ</h4>
+              <ul>
+                <li>AIイラスト・漫画・ショートアニメ制作</li>
+                <li>原作・脚本・キャラ設計から進行管理まで</li>
+                <li>声優手配を含む制作フロー全体の統括</li>
+              </ul>
+            </div>
+            <div class="exp-card">
+              <h4>実績・受賞</h4>
+              <ul>
+                <li>Record Cafe Time Spring BGM コンテスト 最優秀賞『遠い日の花吹雪』</li>
+                <li>Qiita 生成AI開発ブログ部門「珍プレー大賞」受賞</li>
+                <li>現場視点・失敗事例を含む実用的な情報発信</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <hr class="elegant-hr">
+
+        <section class="section">
+          <h3>Business Achievements -業務実績-</h3>
+          <div class="achievement-list">
+            <div class="achievement-item">
+              <h4>教員こころのサポートツール</h4>
+              <p class="achievement-date">2026年4月28日</p>
+              <p>教職員の心の健康を守るためのサポートツール</p>
+              <div class="achievement-links">
+                <a href="https://teacher-mental-health-tool.web.app/" target="_blank" class="btn">デモ <img src="next.png" class="btn-icon"></a>
+                <a href="https://github.com/teshiokayumi/Teacher-mental-health-tool" target="_blank" class="btn">ツール配布先 <img src="next.png" class="btn-icon"></a>
+              </div>
+            </div>
+            <div class="achievement-item">
+              <h4>企業納品物</h4>
+              <ul class="business-list">
+                <li>教職員向け「観点別評価コメント生成」GPT</li>
+                <li>災害時学校対応マニュアル作成GPT</li>
+                <li>個別教育計画(IEP)作成GPT</li>
+                <li>小学校、中学校の先生のための期末レポートGPT</li>
+                <li>小学校教員のためのルーブリック作成GPT</li>
+                <li>学習指導案作成 GPT</li>
+                <li>時間割作成GPT</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <hr class="elegant-hr">
+
+        <section class="section">
+          <h3>Tools -使用ツール・環境-</h3>
+          <div class="tools-container">
+            <div class="tool-tag">ChatGPT</div>
+            <div class="tool-tag">Gemini</div>
+            <div class="tool-tag">NotebookLM</div>
+            <div class="tool-tag">Canva</div>
+            <div class="tool-tag">CLIP STUDIO PAINT</div>
+            <div class="tool-tag">CapCut (動画編集)</div>
+            <div class="tool-tag">各種生成AIツール</div>
+          </div>
+        </section>
+
+        <hr class="elegant-hr">
+
+        <section class="section">
+          <h3>Works -制作物一覧-</h3>
+          <div class="works-grid">
+            <div class="work-item">
+              <h4>癒しをあなたに</h4>
+              <p>全女性を癒す聴く動画アプリ</p>
+              <a href="https://healing-for-you.web.app/" target="_blank" class="btn">View Site <img src="next.png"
+                  class="btn-icon"></a>
+            </div>
+            <div class="work-item">
+              <h4>AI ART Exhibition</h4>
+              <p>モニターがあればどこでもデジタルサイネージになるアプリ</p>
+              <a href="https://storage.googleapis.com/digital-signage-488401/index.html" target="_blank"
+                class="btn">View Site <img src="next.png" class="btn-icon"></a>
+            </div>
+            <div class="work-item">
+              <h4>多言語翻訳コンバーター</h4>
+              <p>APIキーを利用した翻訳ツール</p>
+              <a href="https://newsletter-converter-six.vercel.app/" target="_blank" class="btn">View Site <img
+                  src="next.png" class="btn-icon"></a>
+            </div>
+            <div class="work-item">
+              <h4>BrushMosaicPro</h4>
+              <p>超軽量モザイク＋ぼかしツール</p>
+              <a href="https://musicbox00.booth.pm/items/8026507" target="_blank" class="btn">Booth <img src="next.png"
+                  class="btn-icon"></a>
+            </div>
+            <div class="work-item">
+              <h4>Easy V-Studio</h4>
+              <p>ピンを打つだけで動く動画ツール</p>
+              <a href="https://musicbox00.booth.pm/items/8029496" target="_blank" class="btn">Booth <img src="next.png"
+                  class="btn-icon"></a>
+            </div>
+            <div class="work-item">
+              <h4>英語タイピングゲーム</h4>
+              <p>中学生向け学習ゲーム</p>
+              <a href="https://teshiokayumi.github.io/english_typing_game/" target="_blank" class="btn">Play <img
+                  src="next.png" class="btn-icon"></a>
+            </div>
+            <div class="work-item">
+              <h4>おみくじアプリ</h4>
+              <p>HTML/JS基本制作</p>
+              <a href="https://teshiokayumi.github.io/omikuji/" target="_blank" class="btn">View Site <img
+                  src="next.png" class="btn-icon"></a>
+            </div>
+          </div>
+        </section>
+
+        <hr class="elegant-hr">
+
+        <section class="section">
+          <h3>Media & Blogs -活動-</h3>
+          <div class="activity-list">
+            <div class="activity-item bl-content">
+              <h4>動画・音声配信 (BL作品含む)</h4>
+              <p class="section-desc">音声配信サービス「ピカピカ」にて配信中の作品です。※BL（ボーイズラブ）要素が含まれます。</p>
+              <div class="bl-grid">
+                <div class="bl-card">
+                  <h5>BoyMeetsBoy</h5>
+                  <p>男子高校生の恋と青春を描いた爽やかなBLストーリー</p>
+                  <a href="https://pikapika.live/v/video?videoId=2103489684075184256" target="_blank"
+                    class="activity-btn">視聴する <img src="next.png" class="btn-icon"></a>
+                </div>
+                <div class="bl-card">
+                  <h5>シュガーテイルへようこそ</h5>
+                  <p>国境を越えた出会いから始まる、壮大なBL物語</p>
+                  <a href="https://pikapika.live/v/video?videoId=2108399935501107260" target="_blank"
+                    class="activity-btn">視聴する <img src="next.png" class="btn-icon"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <h4>音楽・執筆・YouTube</h4>
+              <div class="media-details">
+                <div class="media-block">
+                  <h5>小説「優しい鎮魂」</h5>
+                  <p>ネグレクトで育った青年と弁護士の青年が、苦しむ霊や弱い立場の人々と向き合うヒューマン小説</p>
+                  <a href="https://www.alphapolis.co.jp/novel/973378409/898827872" target="_blank"
+                    class="activity-btn">アルファポリスで読む <img src="next.png" class="btn-icon"></a>
+                </div>
+                <div class="media-block">
+                  <h5>アナザーワンダーランド</h5>
+                  <p>歌と音楽とイラストで綴る、もうひとりのアリスの物語（YouTubeプレイリスト）</p>
+                  <a href="https://www.youtube.com/playlist?list=PLyutgTqoQs0LESOdro_B6qDTfv9viGDvr" target="_blank"
+                    class="activity-btn">YouTube視聴 <img src="next.png" class="btn-icon"></a>
+                </div>
+              </div>
+
+              <div class="blog-links">
+                <h5>Other Channels</h5>
+                <div class="link-group">
+                  <a href="https://open.spotify.com/intl-ja/artist/1rXUBdxLvhld0XsOTgsPtR?si=murutcrTTwWDsBCISDMmGQ"
+                    target="_blank" class="activity-btn">Spotify <img src="next.png" class="btn-icon"></a>
+                  <a href="https://qiita.com/iasou24" target="_blank" class="activity-btn">Qiita <img src="next.png"
+                      class="btn-icon"></a>
+                  <a href="https://note.com/sugerpowder" target="_blank" class="activity-btn">note <img src="next.png"
+                      class="btn-icon"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr class="elegant-hr">
+
+        <section class="section contact">
+          <h3>Contact & Stance</h3>
+          <div class="stance-box">
+            <p><strong>働き方：</strong>業務委託歓迎 / フルリモート対応可能 / 守秘義務・納期遵守重視</p>
+            <p>生成AIを導入するだけで終わらせず、「実際に使われる形」に落とし込む実務担当として貢献いたします。業務効率化、教育支援、コンテンツ制作など、AI活用を現場に浸透させる役割をお探しの場合、ぜひお声がけください。
+            </p>
+            <div class="contact-box">
+              <a href="mailto:iasou24@gmail.com" class="mail-link" title="お問い合わせはこちら">
+                <img src="mail.png" alt="Email Icon" class="mail-icon">
+              </a>
+            </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Teshio Kayumi. All Rights Reserved.</p>
+    </footer>
+  </div>
+</body>
+
 </html>
